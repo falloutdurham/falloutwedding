@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6B95C7C1435E8AC009E23E7 /* wedding1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B95C7B1435E8AC009E23E7 /* wedding1.jpg */; };
+		B6B95C841435EBA3009E23E7 /* wedding2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B95C7E1435EBA3009E23E7 /* wedding2.jpg */; };
+		B6B95C851435EBA3009E23E7 /* wedding3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B95C7F1435EBA3009E23E7 /* wedding3.jpg */; };
+		B6B95C861435EBA3009E23E7 /* wedding4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B95C801435EBA3009E23E7 /* wedding4.jpg */; };
+		B6B95C871435EBA3009E23E7 /* wedding5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B95C811435EBA3009E23E7 /* wedding5.jpg */; };
+		B6B95C881435EBA3009E23E7 /* wedding6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B95C821435EBA3009E23E7 /* wedding6.jpg */; };
+		B6B95C891435EBA3009E23E7 /* wedding7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B95C831435EBA3009E23E7 /* wedding7.jpg */; };
+		B6C3BC5B1435667F003F9AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C3BC5A1435667F003F9AA3 /* UIKit.framework */; };
+		B6C3BC5D1435667F003F9AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C3BC5C1435667F003F9AA3 /* Foundation.framework */; };
+		B6C3BC631435667F003F9AA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BC611435667F003F9AA3 /* InfoPlist.strings */; };
+		B6C3BC651435667F003F9AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BC641435667F003F9AA3 /* main.m */; };
+		B6C3BC691435667F003F9AA3 /* SNAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BC681435667F003F9AA3 /* SNAPAppDelegate.m */; };
+		B6C3BC6C1435667F003F9AA3 /* SNAPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BC6B1435667F003F9AA3 /* SNAPFirstViewController.m */; };
+		B6C3BC7A1435667F003F9AA3 /* SNAPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BC781435667F003F9AA3 /* SNAPFirstViewController.xib */; };
+		B6C3BC7D1435667F003F9AA3 /* SNAPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BC7B1435667F003F9AA3 /* SNAPSecondViewController.xib */; };
+		B6C3BC8614356739003F9AA3 /* SNAPRegistryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BC8414356739003F9AA3 /* SNAPRegistryController.m */; };
+		B6C3BC8714356739003F9AA3 /* SNAPRegistryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BC8514356739003F9AA3 /* SNAPRegistryController.xib */; };
+		B6C3BC8B14356F3C003F9AA3 /* SNAPMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BC8914356F39003F9AA3 /* SNAPMapViewController.m */; };
+		B6C3BC8C14356F3C003F9AA3 /* SNAPMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BC8A14356F3A003F9AA3 /* SNAPMapViewController.xib */; };
+		B6C3BC8E14356FDE003F9AA3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C3BC8D14356FDE003F9AA3 /* MapKit.framework */; };
+		B6C3BC9014356FE8003F9AA3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C3BC8F14356FE8003F9AA3 /* CoreLocation.framework */; };
+		B6C3BC9E1435D7F3003F9AA3 /* SNAPPicturesScrollViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BC9C1435D7EF003F9AA3 /* SNAPPicturesScrollViewContainer.m */; };
+		B6C3BC9F1435D7F3003F9AA3 /* SNAPPicturesScrollViewContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BC9D1435D7F1003F9AA3 /* SNAPPicturesScrollViewContainer.xib */; };
+		B6C3BCA91435E4A2003F9AA3 /* registry.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BCA81435E4A1003F9AA3 /* registry.png */; };
+		B6C3BCAB1435E502003F9AA3 /* invite.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BCAA1435E502003F9AA3 /* invite.png */; };
+		B6C3BCAD1435E514003F9AA3 /* pictures.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BCAC1435E513003F9AA3 /* pictures.png */; };
+		B6C3BCAF1435E54A003F9AA3 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BCAE1435E549003F9AA3 /* map.png */; };
+		B6C3BCB11435E5EB003F9AA3 /* invite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BCB01435E5EA003F9AA3 /* invite.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6B95C7B1435E8AC009E23E7 /* wedding1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wedding1.jpg; sourceTree = "<group>"; };
+		B6B95C7E1435EBA3009E23E7 /* wedding2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wedding2.jpg; sourceTree = "<group>"; };
+		B6B95C7F1435EBA3009E23E7 /* wedding3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wedding3.jpg; sourceTree = "<group>"; };
+		B6B95C801435EBA3009E23E7 /* wedding4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wedding4.jpg; sourceTree = "<group>"; };
+		B6B95C811435EBA3009E23E7 /* wedding5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wedding5.jpg; sourceTree = "<group>"; };
+		B6B95C821435EBA3009E23E7 /* wedding6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wedding6.jpg; sourceTree = "<group>"; };
+		B6B95C831435EBA3009E23E7 /* wedding7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wedding7.jpg; sourceTree = "<group>"; };
+		B6C3BC561435667F003F9AA3 /* wedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C3BC5A1435667F003F9AA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6C3BC5C1435667F003F9AA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6C3BC601435667F003F9AA3 /* wedding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wedding-Info.plist"; sourceTree = "<group>"; };
+		B6C3BC621435667F003F9AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6C3BC641435667F003F9AA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6C3BC661435667F003F9AA3 /* wedding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wedding-Prefix.pch"; sourceTree = "<group>"; };
+		B6C3BC671435667F003F9AA3 /* SNAPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAPAppDelegate.h; sourceTree = "<group>"; };
+		B6C3BC681435667F003F9AA3 /* SNAPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAPAppDelegate.m; sourceTree = "<group>"; };
+		B6C3BC6A1435667F003F9AA3 /* SNAPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAPFirstViewController.h; sourceTree = "<group>"; };
+		B6C3BC6B1435667F003F9AA3 /* SNAPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAPFirstViewController.m; sourceTree = "<group>"; };
+		B6C3BC791435667F003F9AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SNAPFirstViewController.xib; sourceTree = "<group>"; };
+		B6C3BC7C1435667F003F9AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SNAPSecondViewController.xib; sourceTree = "<group>"; };
+		B6C3BC8314356739003F9AA3 /* SNAPRegistryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNAPRegistryController.h; sourceTree = "<group>"; };
+		B6C3BC8414356739003F9AA3 /* SNAPRegistryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNAPRegistryController.m; sourceTree = "<group>"; };
+		B6C3BC8514356739003F9AA3 /* SNAPRegistryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNAPRegistryController.xib; sourceTree = "<group>"; };
+		B6C3BC8814356F38003F9AA3 /* SNAPMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNAPMapViewController.h; sourceTree = "<group>"; };
+		B6C3BC8914356F39003F9AA3 /* SNAPMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNAPMapViewController.m; sourceTree = "<group>"; };
+		B6C3BC8A14356F3A003F9AA3 /* SNAPMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNAPMapViewController.xib; sourceTree = "<group>"; };
+		B6C3BC8D14356FDE003F9AA3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B6C3BC8F14356FE8003F9AA3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B6C3BC9B1435D7ED003F9AA3 /* SNAPPicturesScrollViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNAPPicturesScrollViewContainer.h; sourceTree = "<group>"; };
+		B6C3BC9C1435D7EF003F9AA3 /* SNAPPicturesScrollViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNAPPicturesScrollViewContainer.m; sourceTree = "<group>"; };
+		B6C3BC9D1435D7F1003F9AA3 /* SNAPPicturesScrollViewContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNAPPicturesScrollViewContainer.xib; sourceTree = "<group>"; };
+		B6C3BCA81435E4A1003F9AA3 /* registry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registry.png; sourceTree = "<group>"; };
+		B6C3BCAA1435E502003F9AA3 /* invite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invite.png; sourceTree = "<group>"; };
+		B6C3BCAC1435E513003F9AA3 /* pictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pictures.png; sourceTree = "<group>"; };
+		B6C3BCAE1435E549003F9AA3 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		B6C3BCB01435E5EA003F9AA3 /* invite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invite.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C3BC531435667F003F9AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C3BC9014356FE8003F9AA3 /* CoreLocation.framework in Frameworks */,
+				B6C3BC8E14356FDE003F9AA3 /* MapKit.framework in Frameworks */,
+				B6C3BC5B1435667F003F9AA3 /* UIKit.framework in Frameworks */,
+				B6C3BC5D1435667F003F9AA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C3BC4B1435667F003F9AA3 = {
+			isa = PBXGroup;
+			children = (
+				B6C3BC8F14356FE8003F9AA3 /* CoreLocation.framework */,
+				B6C3BC8D14356FDE003F9AA3 /* MapKit.framework */,
+				B6C3BC5E1435667F003F9AA3 /* wedding */,
+				B6C3BC591435667F003F9AA3 /* Frameworks */,
+				B6C3BC571435667F003F9AA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C3BC571435667F003F9AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3BC561435667F003F9AA3 /* wedding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C3BC591435667F003F9AA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3BC5A1435667F003F9AA3 /* UIKit.framework */,
+				B6C3BC5C1435667F003F9AA3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C3BC5E1435667F003F9AA3 /* wedding */ = {
+			isa = PBXGroup;
+			children = (
+				B6B95C7B1435E8AC009E23E7 /* wedding1.jpg */,
+				B6B95C7E1435EBA3009E23E7 /* wedding2.jpg */,
+				B6B95C7F1435EBA3009E23E7 /* wedding3.jpg */,
+				B6B95C801435EBA3009E23E7 /* wedding4.jpg */,
+				B6B95C811435EBA3009E23E7 /* wedding5.jpg */,
+				B6B95C821435EBA3009E23E7 /* wedding6.jpg */,
+				B6B95C831435EBA3009E23E7 /* wedding7.jpg */,
+				B6C3BCAE1435E549003F9AA3 /* map.png */,
+				B6C3BCB01435E5EA003F9AA3 /* invite.jpg */,
+				B6C3BCAA1435E502003F9AA3 /* invite.png */,
+				B6C3BCA81435E4A1003F9AA3 /* registry.png */,
+				B6C3BCAC1435E513003F9AA3 /* pictures.png */,
+				B6C3BC671435667F003F9AA3 /* SNAPAppDelegate.h */,
+				B6C3BC681435667F003F9AA3 /* SNAPAppDelegate.m */,
+				B6C3BC6A1435667F003F9AA3 /* SNAPFirstViewController.h */,
+				B6C3BC6B1435667F003F9AA3 /* SNAPFirstViewController.m */,
+				B6C3BC781435667F003F9AA3 /* SNAPFirstViewController.xib */,
+				B6C3BC7B1435667F003F9AA3 /* SNAPSecondViewController.xib */,
+				B6C3BC8314356739003F9AA3 /* SNAPRegistryController.h */,
+				B6C3BC8414356739003F9AA3 /* SNAPRegistryController.m */,
+				B6C3BC8514356739003F9AA3 /* SNAPRegistryController.xib */,
+				B6C3BC8814356F38003F9AA3 /* SNAPMapViewController.h */,
+				B6C3BC8914356F39003F9AA3 /* SNAPMapViewController.m */,
+				B6C3BC8A14356F3A003F9AA3 /* SNAPMapViewController.xib */,
+				B6C3BC9B1435D7ED003F9AA3 /* SNAPPicturesScrollViewContainer.h */,
+				B6C3BC9C1435D7EF003F9AA3 /* SNAPPicturesScrollViewContainer.m */,
+				B6C3BC9D1435D7F1003F9AA3 /* SNAPPicturesScrollViewContainer.xib */,
+				B6C3BC5F1435667F003F9AA3 /* Supporting Files */,
+			);
+			path = wedding;
+			sourceTree = "<group>";
+		};
+		B6C3BC5F1435667F003F9AA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3BC601435667F003F9AA3 /* wedding-Info.plist */,
+				B6C3BC611435667F003F9AA3 /* InfoPlist.strings */,
+				B6C3BC641435667F003F9AA3 /* main.m */,
+				B6C3BC661435667F003F9AA3 /* wedding-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C3BC551435667F003F9AA3 /* wedding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C3BC801435667F003F9AA3 /* Build configuration list for PBXNativeTarget "wedding" */;
+			buildPhases = (
+				B6C3BC521435667F003F9AA3 /* Sources */,
+				B6C3BC531435667F003F9AA3 /* Frameworks */,
+				B6C3BC541435667F003F9AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wedding;
+			productName = wedding;
+			productReference = B6C3BC561435667F003F9AA3 /* wedding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C3BC4D1435667F003F9AA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Fallout Durham";
+			};
+			buildConfigurationList = B6C3BC501435667F003F9AA3 /* Build configuration list for PBXProject "wedding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6C3BC4B1435667F003F9AA3;
+			productRefGroup = B6C3BC571435667F003F9AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C3BC551435667F003F9AA3 /* wedding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C3BC541435667F003F9AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C3BC631435667F003F9AA3 /* InfoPlist.strings in Resources */,
+				B6C3BC7A1435667F003F9AA3 /* SNAPFirstViewController.xib in Resources */,
+				B6C3BC7D1435667F003F9AA3 /* SNAPSecondViewController.xib in Resources */,
+				B6C3BC8714356739003F9AA3 /* SNAPRegistryController.xib in Resources */,
+				B6C3BC8C14356F3C003F9AA3 /* SNAPMapViewController.xib in Resources */,
+				B6C3BC9F1435D7F3003F9AA3 /* SNAPPicturesScrollViewContainer.xib in Resources */,
+				B6C3BCA91435E4A2003F9AA3 /* registry.png in Resources */,
+				B6C3BCAB1435E502003F9AA3 /* invite.png in Resources */,
+				B6C3BCAD1435E514003F9AA3 /* pictures.png in Resources */,
+				B6C3BCAF1435E54A003F9AA3 /* map.png in Resources */,
+				B6C3BCB11435E5EB003F9AA3 /* invite.jpg in Resources */,
+				B6B95C7C1435E8AC009E23E7 /* wedding1.jpg in Resources */,
+				B6B95C841435EBA3009E23E7 /* wedding2.jpg in Resources */,
+				B6B95C851435EBA3009E23E7 /* wedding3.jpg in Resources */,
+				B6B95C861435EBA3009E23E7 /* wedding4.jpg in Resources */,
+				B6B95C871435EBA3009E23E7 /* wedding5.jpg in Resources */,
+				B6B95C881435EBA3009E23E7 /* wedding6.jpg in Resources */,
+				B6B95C891435EBA3009E23E7 /* wedding7.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C3BC521435667F003F9AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C3BC651435667F003F9AA3 /* main.m in Sources */,
+				B6C3BC691435667F003F9AA3 /* SNAPAppDelegate.m in Sources */,
+				B6C3BC6C1435667F003F9AA3 /* SNAPFirstViewController.m in Sources */,
+				B6C3BC8614356739003F9AA3 /* SNAPRegistryController.m in Sources */,
+				B6C3BC8B14356F3C003F9AA3 /* SNAPMapViewController.m in Sources */,
+				B6C3BC9E1435D7F3003F9AA3 /* SNAPPicturesScrollViewContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6C3BC611435667F003F9AA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C3BC621435667F003F9AA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6C3BC781435667F003F9AA3 /* SNAPFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C3BC791435667F003F9AA3 /* en */,
+			);
+			name = SNAPFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		B6C3BC7B1435667F003F9AA3 /* SNAPSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C3BC7C1435667F003F9AA3 /* en */,
+			);
+			name = SNAPSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C3BC7E1435667F003F9AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6C3BC7F1435667F003F9AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C3BC811435667F003F9AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedding/wedding-Prefix.pch";
+				INFOPLIST_FILE = "wedding/wedding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6C3BC821435667F003F9AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedding/wedding-Prefix.pch";
+				INFOPLIST_FILE = "wedding/wedding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C3BC501435667F003F9AA3 /* Build configuration list for PBXProject "wedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C3BC7E1435667F003F9AA3 /* Debug */,
+				B6C3BC7F1435667F003F9AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C3BC801435667F003F9AA3 /* Build configuration list for PBXNativeTarget "wedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C3BC811435667F003F9AA3 /* Debug */,
+				B6C3BC821435667F003F9AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C3BC4D1435667F003F9AA3 /* Project object */;
+}
